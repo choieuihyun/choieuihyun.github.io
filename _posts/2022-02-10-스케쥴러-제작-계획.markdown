@@ -3,7 +3,7 @@ layout: post
 title: "Scheduler 제작기 (1)"
 date: 2022-02-10 13:05:18 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
-tags: [android, docs]
+tags: [jekyll, docs]
 categories: jekyll
 ---
 안드로이드와 코틀린을 좀 더 공부하고 싶어서 고민을 해봤다.

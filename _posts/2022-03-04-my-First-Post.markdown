@@ -3,7 +3,7 @@ layout: post
 title: "My First Post"
 date: 2022-03-04 19:04:18 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
-tags: [android, docs]
+tags: [jekyll, docs]
 categories: jekyll
 ---
 GitHub 블로그 사용하려고 테마 적용하고 수정하고 글까지 올려보는데 이렇게 하는게 맞는지는 모르겠다.

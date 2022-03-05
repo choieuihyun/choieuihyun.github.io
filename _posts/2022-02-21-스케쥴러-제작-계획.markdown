@@ -3,7 +3,7 @@ layout: post
 title: "Scheduler 제작기 (3)"
 date: 2022-02-21 19:20:52 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
-tags: [android, docs]
+tags: [jekyll, docs]
 categories: jekyll
 ---
 
