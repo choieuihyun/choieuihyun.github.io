@@ -1,0 +1,8 @@
+I"�<p>GitHub 블로그 사용하려고 테마 적용하고 수정하고 글까지 올려보는데 이렇게 하는게 맞는지는 모르겠다.
+일단 하고있는데 어려워 어려워 앞으로 내 일기장 + 개발일지로 써야겠다.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">fun</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"hello World"</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+:ET

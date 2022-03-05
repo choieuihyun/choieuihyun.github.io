@@ -1,0 +1,22 @@
+I"�<p>액티비티간 연결이나 그런건 좀 해봤기에 쉽게 할 줄 알아서 기록은 안했는데 10, 11일동안 기본 틀은 만들었다.</p>
+
+<p>총 액티비티는 Calender, Exercise, Hobby, Intro, Main, Study가 있다.</p>
+
+<p>프로그레스(진행도) 화면에서는 ExerciseActivity, StudyActivity, HobbyActivity에서 데이터를 받아왔으며
+그에 따라 프로그레스바 증감이 되는것을 확인했다.</p>
+
+<p>스케쥴러 앱을 킬 때마다 데이터를 가지고 있어야 했고 총 점수 1000점마다 초기화를 하려 했기에 SharedPreferences를 사용하여 앱 내부에 저장하였다.</p>
+
+<p>달력에서 받아와 메인화면에 리스트로 띄워줘야 했기에 ListView, Adapter를 사용하여 메인화면에 띄워줬다.</p>
+
+<p>뭐 그렇게 어려운건 없었는데 아직 기초중에 기초만 만들어서 그런거 같다.</p>
+
+<hr />
+
+<p>아 근데 kotlin extensions 이거 되게 편하네 findByView 난사했던 내가 부끄럽다.</p>
+
+<p>프로그레스바도 원형으로 바꾸고싶은데 쉽지않다.</p>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+:ET

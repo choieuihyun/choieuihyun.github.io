@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Scheduler 제작기 (4)"
+date: 2022-02-22 23:12:12 +0900 <!-- 이거해야되네 +0900 -->
+image: 12.jpg
+tags: [android, docs]
+categories: Android
+---
+
+코틀린을 사용한지 얼마 안되서 그런가 lateinit var 요런 늦은 초기화 이런걸 잘 모르겠다. 메모리 누수 방지인가?
+
+사용을 잘 해야하는 것 같은데.. 공부하자
+
+오늘은 어떻게보면 간단한건데 가장 중요한 것을 깨달았다. 예전에 학교 내부지도 만들 때 생명주기를 듣기만 하고 몰라서
+
+Activity 난사에 onCreate에 싹 다 때려박았는데 진짜 무지함의 극치였다.
+
+Activity와 Fragment의 각 생명주기에 따라 실행 순서가 어떻게 되는지, 어디까지가 초기화부분이고 어디까지가 실행부분인지,
+
+onPause()의 조건 등등 알아야했어야 하는게 많았다. 이걸 몰라서 왜 화면에 안뜨는지, 버그가 발생하는지 못 찾아 고생했다.
+
+---
+
+생명주기가 생각보다 매우 중요했다. 메모리 누수도 막아주고 충돌이나 버그가 일어나지 않도록 하기 위해선 반드시 지켜야하는 구조였다.
+
+예전엔 봐도 뭔소린지 몰랐는데 마음먹고 하니까 금방 알아듣는다. 내 학습태도가 문제였다.
+
+그리고 앱 개발 진척도가 좀 느린데 새로운걸 습득하면서 하다보니까 굼벵이가 됐다. 어쩔 수 없다.
+
+{% highlight ruby %}
+
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

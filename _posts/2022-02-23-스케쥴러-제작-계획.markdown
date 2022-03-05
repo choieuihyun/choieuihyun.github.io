@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Scheduler 제작기 (5)"
+date: 2022-02-23 19:05:22 +0900 <!-- 이거해야되네 +0900 -->
+image: 12.jpg
+tags: [android, docs]
+categories: Android
+---
+내가 21일에 생각한게 있었다. MainActivity에 화면 백지로 딱 놓고 프래그먼트로 돌린다는 것이었다.
+
+위의 구조로 싹 다 갈아엎고나서 구글을 뒤적뒤적하다가 요즘 앱들은 single activity application으로 한다는 글을 봤다.
+
+내 생각이 맞았던 것에 기분이 상당히 좋았다.
+
+그렇게 갈아엎은 구조는 MainActivity 하나 두고 ExerciseFragment, StudyFragment, HobbyFragment 등 내가 사용할 화면은 전부 Fragment로 구현하였으며
+
+side drawer로 구현했던 메뉴는 bottomNavigation으로 다시 구현했다.
+
+![Main 화면](/images/main.jpg)
+
+bottomNavigation은 원래 메뉴를 6개정도 하고싶었는데 개발자 문서 읽어보니까 3개에서 5개만 된다해서 4개로 줄였다.
+
+StudyFragment, ExerciseFragment, HobbyFragment를 recordFragment를 TapLayout로 구현하여 각 메뉴(study, exercise, hobby)에 해당하는 childFragment로 넣었다.
+
+![Record 화면](/images/record.jpg)
+
+그렇게 bottomNavigation은 Main, record, calender, progress 네개로 나뉘게 되었다.
+
+뭐 빼먹은 것 같은데 여기까지가 오늘 공부하면서 개발한 것이다.
+
+---
+
+이게 메뉴 형태나 Layout형태도 잘 모르다보니까 찾아서 적용하기까지 시간이 좀 걸린다.
+
+진작 이렇게 좀 알아보면서 했으면 얼마나 좋았을까. 직접 박치기하면서 배우는 스타일도 똑똑하게 박치기 해야된다.
+
+
+{% highlight ruby %}
+
+
+
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

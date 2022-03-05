@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Scheduler 제작기 (3)"
+date: 2022-02-21 19:20:52 +0900 <!-- 이거해야되네 +0900 -->
+image: 12.jpg
+tags: [android, docs]
+categories: Android
+---
+
+이거봐 정신 잠깐 놓으면 시간 한참지난다. 사실 이 때 알고리즘 공부를 좀 하고있었다. 필수과목이라 한건데 뭐 만드는것보다 재미가 없다.
+
+일주일 조금 넘게 알고리즘과 붙같은 외도를 마치고 다시 안드로이드 스튜디오로 돌아왔다.
+
+돌아와서 휴대폰에 있는 스케쥴러 어플을 켜보니 되게 구려보였다.
+
+범인을 검거하고나서 보니 메인화면에서 드래그하면 사이드에서 메뉴뜨는 그거 side drawer였나 그게 진짜 기가막히게 구린거였다.
+
+생각해보면 요즘 트렌드에 그런거 쓰는 어플이 거의 없긴하다. 그래서 어떻게하면 조금 요즘 어플 발 끝만큼은 따라갈 수 있을지 생각해봤다.
+
+근데 어떡하지? 만들어본 경험도 없고 들은 것도 없다. 뭘 어쩌긴 어째 바로 플레이스토어에서 스케쥴러 다운받았다.
+
+받자마자 잘 만든건 뭐 당연하니까 신경 안썼는데 만든 방식이 뭔가 좀 달랐다.
+
+아래에 메뉴 고정에 누를때마다 화면이 부드럽게 넘어가는 느낌? 새로 뜨는 느낌이 아니었다.
+
+뭔가 느낌상 MainActivity에 백지 갖다붙이고 메뉴 누를때마다 Fragment만 바꿔주는 것 같다. 아님 말고
+
+---
+
+요거 하면서 Fragment가 뭔지 더 확실히 알았다. 프로젝트 하나 하나 추가로 만들어갈 때 마다 몰랐던 것을 애매하게 알게되고
+
+애매하게 알았던 것을 확실하게 알아가는 기분이다.
+
+뭐 많이 알긴해서 좋긴한데 프로젝트 갈아엎어야하네 ㅎㅎ 오히려 좋아 더 고생해야겠다.
+
+{% highlight ruby %}
+
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
