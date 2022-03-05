@@ -39,6 +39,8 @@ plugins:
 paginate: 7
 paginate_path: "/page/:num/"
 
+future: true
+
 include:
   - _pages
 
