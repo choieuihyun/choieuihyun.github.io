@@ -4,7 +4,7 @@ title: "Scheduler 제작기 (3)"
 date: 2022-02-21 19:20:52 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
 tags: [android, docs]
-categories: Android
+categories: jekyll
 ---
 
 이거봐 정신 잠깐 놓으면 시간 한참지난다. 사실 이 때 알고리즘 공부를 좀 하고있었다. 필수과목이라 한건데 뭐 만드는것보다 재미가 없다.

@@ -4,7 +4,7 @@ title: "Scheduler 제작기 (2)"
 date: 2022-02-12 22:35:01 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
 tags: [android, docs]
-categories: Android
+categories: jekyll
 ---
 액티비티간 연결이나 그런건 좀 해봤기에 쉽게 할 줄 알아서 기록은 안했는데 10, 11일동안 기본 틀은 만들었다.
 

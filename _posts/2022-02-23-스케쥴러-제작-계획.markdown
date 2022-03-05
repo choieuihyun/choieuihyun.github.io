@@ -4,7 +4,7 @@ title: "Scheduler 제작기 (5)"
 date: 2022-02-23 19:05:22 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
 tags: [android, docs]
-categories: Android
+categories: jekyll
 ---
 내가 21일에 생각한게 있었다. MainActivity에 화면 백지로 딱 놓고 프래그먼트로 돌린다는 것이었다.
 

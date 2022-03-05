@@ -4,7 +4,7 @@ title: "Scheduler 제작기 (4)"
 date: 2022-02-22 23:12:12 +0900 <!-- 이거해야되네 +0900 -->
 image: 12.jpg
 tags: [android, docs]
-categories: Android
+categories: jekyll
 ---
 
 코틀린을 사용한지 얼마 안되서 그런가 lateinit var 요런 늦은 초기화 이런걸 잘 모르겠다. 메모리 누수 방지인가?
